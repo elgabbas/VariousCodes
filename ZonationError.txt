@@ -1,9 +1,3 @@
-Working Directory:                    /home/fr/fr_fr/fr_ae121
-Running on host                       n3201.nemo.privat
-Job id:                               1984536
-Job name:                             Task_1
-Number of nodes allocated to job:     0
-Number of cores allocated to job:     16
 Zonation 4.0.0_compact, build: Aug 24 2017 15:26:05
 ==========================================================================
 The Zonation software is distributed in the  hope that it will be useful, 
@@ -13,7 +7,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  For more information and conditions of use of this software, see the
  disclaimer in Help->About Zonation, in the graphical user interface
 
-Starting Zonation run on 'n3201.nemo.privat' at 2:52:34 AM (2017/10/21) 
+Starting Zonation run on '' at 2:52:34 AM (2017/10/21) 
 Locale is: C
 Zonation core process parameters: 
    run mode: normal run (-r)
