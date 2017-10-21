@@ -1,0 +1,1220 @@
+Working Directory:                    /home/fr/fr_fr/fr_ae121
+Running on host                       n3201.nemo.privat
+Job id:                               1984536
+Job name:                             Task_1
+Number of nodes allocated to job:     0
+Number of cores allocated to job:     16
+Zonation 4.0.0_compact, build: Aug 24 2017 15:26:05
+==========================================================================
+The Zonation software is distributed in the  hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+==========================================================================
+ For more information and conditions of use of this software, see the
+ disclaimer in Help->About Zonation, in the graphical user interface
+
+Starting Zonation run on 'n3201.nemo.privat' at 2:52:34 AM (2017/10/21) 
+Locale is: C
+Zonation core process parameters: 
+   run mode: normal run (-r)
+   settings file: ABF_Cost_Mask.dat
+   biodiversity features list file: WTGlob-NoUncert__BQP-Low-1__Mxnt-Bias0-AllSP.spp
+   output file(s): output/ABF_Cost_Mask__WTGlob-NoUncert__BQP-Low-1__Mxnt-Bias0-AllSP
+   info-gap alpha: 0
+   use_smoothing: 1
+   smoothing_alpha_multiplier: 1
+   autoclose (deprecated): 1
+
+Reading settings file: ABF_Cost_Mask.dat
+   Option not overriden in command line, removal rule: 2
+   Option not overriden in command line, warp factor: 10
+
+Output settings:
+   Output weighted range size corrected richness map: yes
+   Output proportional loss rank map: no
+
+********** Arbitrary kernels not enabled ********
+
+*************** NOT USING ANALYSIS AREA MASK **************
+
+*********** USING Boundary Quality Penalty *********
+  BQP MODE=1: BQP aligns missing data
+
+*************** USING COST LAYER **************
+  Cost file = CostLayer.tif
+*************** USING (HIERARCHICAL) REMOVAL MASK LAYER **************
+  Mask file: Mask_PAs.tif
+
+Loading list of biodiversity features from file: WTGlob-NoUncert__BQP-Low-1__Mxnt-Bias0-AllSP.spp
+Row count in the features/species list file: 178
+setting global projection/transform: "PROJCS["Mollweide",GEOGCS["GCS_WGS_1984",DATUM["D_unknown",SPHEROID["WGS84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Mollweide"],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["Meter",1]]" / 2253717.891620 5000.000000 0.000000 3880047.848074 0.000000 -5000.000000
+Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp1.tif: 238 rows, 258 columns read. Nodata cells =  20808, sum of elements = 1481.98
+
+Matrix columns/x dimension: 258, rows/y dimension: 238
+CostLayer.tif: 238 rows, 258 columns read. Nodata cells =  20808, sum of elements = 2180.38
+Cost map loaded.
+Mask_PAs.tif: 238 rows, 258 columns read. Nodata cells =  20808, sum of elements = 4873
+Mask map loaded.
+Loading BQP profiles from file BQPcurves.txt
+BQProf 1 starts from (1.00,1.00) ends at (0.00,1.00)
+BQProf 2 starts from (1.00,1.00) ends at (0.00,0.80)
+BQProf 3 starts from (1.00,1.00) ends at (0.00,0.30)
+BQProf 4 starts from (1.00,1.00) ends at (0.00,0.05)
+
+USING BQP: SP 0, BQPProf=2, radius=1 cells.
+USING BQP: SP 1, BQPProf=2, radius=1 cells.
+USING BQP: SP 2, BQPProf=2, radius=1 cells.
+USING BQP: SP 3, BQPProf=2, radius=1 cells.
+USING BQP: SP 4, BQPProf=2, radius=1 cells.
+USING BQP: SP 5, BQPProf=2, radius=1 cells.
+USING BQP: SP 6, BQPProf=2, radius=1 cells.
+USING BQP: SP 7, BQPProf=2, radius=1 cells.
+USING BQP: SP 8, BQPProf=2, radius=1 cells.
+USING BQP: SP 9, BQPProf=2, radius=1 cells.
+USING BQP: SP 10, BQPProf=2, radius=1 cells.
+USING BQP: SP 11, BQPProf=2, radius=1 cells.
+USING BQP: SP 12, BQPProf=2, radius=1 cells.
+USING BQP: SP 13, BQPProf=2, radius=1 cells.
+USING BQP: SP 14, BQPProf=2, radius=1 cells.
+USING BQP: SP 15, BQPProf=2, radius=1 cells.
+USING BQP: SP 16, BQPProf=2, radius=1 cells.
+USING BQP: SP 17, BQPProf=2, radius=1 cells.
+USING BQP: SP 18, BQPProf=2, radius=1 cells.
+USING BQP: SP 19, BQPProf=2, radius=1 cells.
+USING BQP: SP 20, BQPProf=2, radius=1 cells.
+USING BQP: SP 21, BQPProf=2, radius=1 cells.
+USING BQP: SP 22, BQPProf=2, radius=1 cells.
+USING BQP: SP 23, BQPProf=2, radius=1 cells.
+USING BQP: SP 24, BQPProf=2, radius=1 cells.
+USING BQP: SP 25, BQPProf=2, radius=1 cells.
+USING BQP: SP 26, BQPProf=2, radius=1 cells.
+USING BQP: SP 27, BQPProf=2, radius=1 cells.
+USING BQP: SP 28, BQPProf=2, radius=1 cells.
+USING BQP: SP 29, BQPProf=2, radius=1 cells.
+USING BQP: SP 30, BQPProf=2, radius=1 cells.
+USING BQP: SP 31, BQPProf=2, radius=1 cells.
+USING BQP: SP 32, BQPProf=2, radius=1 cells.
+USING BQP: SP 33, BQPProf=2, radius=1 cells.
+USING BQP: SP 34, BQPProf=2, radius=1 cells.
+USING BQP: SP 35, BQPProf=2, radius=1 cells.
+USING BQP: SP 36, BQPProf=2, radius=1 cells.
+USING BQP: SP 37, BQPProf=2, radius=1 cells.
+USING BQP: SP 38, BQPProf=2, radius=1 cells.
+USING BQP: SP 39, BQPProf=2, radius=1 cells.
+USING BQP: SP 40, BQPProf=2, radius=1 cells.
+USING BQP: SP 41, BQPProf=2, radius=1 cells.
+USING BQP: SP 42, BQPProf=2, radius=1 cells.
+USING BQP: SP 43, BQPProf=2, radius=1 cells.
+USING BQP: SP 44, BQPProf=2, radius=1 cells.
+USING BQP: SP 45, BQPProf=2, radius=1 cells.
+USING BQP: SP 46, BQPProf=2, radius=1 cells.
+USING BQP: SP 47, BQPProf=2, radius=1 cells.
+USING BQP: SP 48, BQPProf=2, radius=1 cells.
+USING BQP: SP 49, BQPProf=2, radius=1 cells.
+USING BQP: SP 50, BQPProf=2, radius=1 cells.
+USING BQP: SP 51, BQPProf=2, radius=1 cells.
+USING BQP: SP 52, BQPProf=2, radius=1 cells.
+USING BQP: SP 53, BQPProf=2, radius=1 cells.
+USING BQP: SP 54, BQPProf=2, radius=1 cells.
+USING BQP: SP 55, BQPProf=2, radius=1 cells.
+USING BQP: SP 56, BQPProf=2, radius=1 cells.
+USING BQP: SP 57, BQPProf=2, radius=1 cells.
+USING BQP: SP 58, BQPProf=2, radius=1 cells.
+USING BQP: SP 59, BQPProf=2, radius=1 cells.
+USING BQP: SP 60, BQPProf=2, radius=1 cells.
+USING BQP: SP 61, BQPProf=2, radius=1 cells.
+USING BQP: SP 62, BQPProf=2, radius=1 cells.
+USING BQP: SP 63, BQPProf=2, radius=1 cells.
+USING BQP: SP 64, BQPProf=2, radius=1 cells.
+USING BQP: SP 65, BQPProf=2, radius=1 cells.
+USING BQP: SP 66, BQPProf=2, radius=1 cells.
+USING BQP: SP 67, BQPProf=2, radius=1 cells.
+USING BQP: SP 68, BQPProf=2, radius=1 cells.
+USING BQP: SP 69, BQPProf=2, radius=1 cells.
+USING BQP: SP 70, BQPProf=2, radius=1 cells.
+USING BQP: SP 71, BQPProf=2, radius=1 cells.
+USING BQP: SP 72, BQPProf=2, radius=1 cells.
+USING BQP: SP 73, BQPProf=2, radius=1 cells.
+USING BQP: SP 74, BQPProf=2, radius=1 cells.
+USING BQP: SP 75, BQPProf=2, radius=1 cells.
+USING BQP: SP 76, BQPProf=2, radius=1 cells.
+USING BQP: SP 77, BQPProf=2, radius=1 cells.
+USING BQP: SP 78, BQPProf=2, radius=1 cells.
+USING BQP: SP 79, BQPProf=2, radius=1 cells.
+USING BQP: SP 80, BQPProf=2, radius=1 cells.
+USING BQP: SP 81, BQPProf=2, radius=1 cells.
+USING BQP: SP 82, BQPProf=2, radius=1 cells.
+USING BQP: SP 83, BQPProf=2, radius=1 cells.
+USING BQP: SP 84, BQPProf=2, radius=1 cells.
+USING BQP: SP 85, BQPProf=2, radius=1 cells.
+USING BQP: SP 86, BQPProf=2, radius=1 cells.
+USING BQP: SP 87, BQPProf=2, radius=1 cells.
+USING BQP: SP 88, BQPProf=2, radius=1 cells.
+USING BQP: SP 89, BQPProf=2, radius=1 cells.
+USING BQP: SP 90, BQPProf=2, radius=1 cells.
+USING BQP: SP 91, BQPProf=2, radius=1 cells.
+USING BQP: SP 92, BQPProf=2, radius=1 cells.
+USING BQP: SP 93, BQPProf=2, radius=1 cells.
+USING BQP: SP 94, BQPProf=2, radius=1 cells.
+USING BQP: SP 95, BQPProf=2, radius=1 cells.
+USING BQP: SP 96, BQPProf=2, radius=1 cells.
+USING BQP: SP 97, BQPProf=2, radius=1 cells.
+USING BQP: SP 98, BQPProf=2, radius=1 cells.
+USING BQP: SP 99, BQPProf=2, radius=1 cells.
+USING BQP: SP 100, BQPProf=2, radius=1 cells.
+USING BQP: SP 101, BQPProf=2, radius=1 cells.
+USING BQP: SP 102, BQPProf=2, radius=1 cells.
+USING BQP: SP 103, BQPProf=2, radius=1 cells.
+USING BQP: SP 104, BQPProf=2, radius=1 cells.
+USING BQP: SP 105, BQPProf=2, radius=1 cells.
+USING BQP: SP 106, BQPProf=2, radius=1 cells.
+USING BQP: SP 107, BQPProf=2, radius=1 cells.
+USING BQP: SP 108, BQPProf=2, radius=1 cells.
+USING BQP: SP 109, BQPProf=2, radius=1 cells.
+USING BQP: SP 110, BQPProf=2, radius=1 cells.
+USING BQP: SP 111, BQPProf=2, radius=1 cells.
+USING BQP: SP 112, BQPProf=2, radius=1 cells.
+USING BQP: SP 113, BQPProf=2, radius=1 cells.
+USING BQP: SP 114, BQPProf=2, radius=1 cells.
+USING BQP: SP 115, BQPProf=2, radius=1 cells.
+USING BQP: SP 116, BQPProf=2, radius=1 cells.
+USING BQP: SP 117, BQPProf=2, radius=1 cells.
+USING BQP: SP 118, BQPProf=2, radius=1 cells.
+USING BQP: SP 119, BQPProf=2, radius=1 cells.
+USING BQP: SP 120, BQPProf=2, radius=1 cells.
+USING BQP: SP 121, BQPProf=2, radius=1 cells.
+USING BQP: SP 122, BQPProf=2, radius=1 cells.
+USING BQP: SP 123, BQPProf=2, radius=1 cells.
+USING BQP: SP 124, BQPProf=2, radius=1 cells.
+USING BQP: SP 125, BQPProf=2, radius=1 cells.
+USING BQP: SP 126, BQPProf=2, radius=1 cells.
+USING BQP: SP 127, BQPProf=2, radius=1 cells.
+USING BQP: SP 128, BQPProf=2, radius=1 cells.
+USING BQP: SP 129, BQPProf=2, radius=1 cells.
+USING BQP: SP 130, BQPProf=2, radius=1 cells.
+USING BQP: SP 131, BQPProf=2, radius=1 cells.
+USING BQP: SP 132, BQPProf=2, radius=1 cells.
+USING BQP: SP 133, BQPProf=2, radius=1 cells.
+USING BQP: SP 134, BQPProf=2, radius=1 cells.
+USING BQP: SP 135, BQPProf=2, radius=1 cells.
+USING BQP: SP 136, BQPProf=2, radius=1 cells.
+USING BQP: SP 137, BQPProf=2, radius=1 cells.
+USING BQP: SP 138, BQPProf=2, radius=1 cells.
+USING BQP: SP 139, BQPProf=2, radius=1 cells.
+USING BQP: SP 140, BQPProf=2, radius=1 cells.
+USING BQP: SP 141, BQPProf=2, radius=1 cells.
+USING BQP: SP 142, BQPProf=2, radius=1 cells.
+USING BQP: SP 143, BQPProf=2, radius=1 cells.
+USING BQP: SP 144, BQPProf=2, radius=1 cells.
+USING BQP: SP 145, BQPProf=2, radius=1 cells.
+USING BQP: SP 146, BQPProf=2, radius=1 cells.
+USING BQP: SP 147, BQPProf=2, radius=1 cells.
+USING BQP: SP 148, BQPProf=2, radius=1 cells.
+USING BQP: SP 149, BQPProf=2, radius=1 cells.
+USING BQP: SP 150, BQPProf=2, radius=1 cells.
+USING BQP: SP 151, BQPProf=2, radius=1 cells.
+USING BQP: SP 152, BQPProf=2, radius=1 cells.
+USING BQP: SP 153, BQPProf=2, radius=1 cells.
+USING BQP: SP 154, BQPProf=2, radius=1 cells.
+USING BQP: SP 155, BQPProf=2, radius=1 cells.
+USING BQP: SP 156, BQPProf=2, radius=1 cells.
+USING BQP: SP 157, BQPProf=2, radius=1 cells.
+USING BQP: SP 158, BQPProf=2, radius=1 cells.
+USING BQP: SP 159, BQPProf=2, radius=1 cells.
+USING BQP: SP 160, BQPProf=2, radius=1 cells.
+USING BQP: SP 161, BQPProf=2, radius=1 cells.
+USING BQP: SP 162, BQPProf=2, radius=1 cells.
+USING BQP: SP 163, BQPProf=2, radius=1 cells.
+USING BQP: SP 164, BQPProf=2, radius=1 cells.
+USING BQP: SP 165, BQPProf=2, radius=1 cells.
+USING BQP: SP 166, BQPProf=2, radius=1 cells.
+USING BQP: SP 167, BQPProf=2, radius=1 cells.
+USING BQP: SP 168, BQPProf=2, radius=1 cells.
+USING BQP: SP 169, BQPProf=2, radius=1 cells.
+USING BQP: SP 170, BQPProf=2, radius=1 cells.
+USING BQP: SP 171, BQPProf=2, radius=1 cells.
+USING BQP: SP 172, BQPProf=2, radius=1 cells.
+USING BQP: SP 173, BQPProf=2, radius=1 cells.
+USING BQP: SP 174, BQPProf=2, radius=1 cells.
+USING BQP: SP 175, BQPProf=2, radius=1 cells.
+USING BQP: SP 176, BQPProf=2, radius=1 cells.
+USING BQP: SP 177, BQPProf=2, radius=1 cells.
+Neighborhood matrix allocated with radius 1
+178 BQP profiles computed.
+
+****** REMOVAL RULE: Convex additive benefit function (ABF); r^par *******
+
+****** NOT using Info-gap distribution discounting uncertainty analysis ****************
+
+
+*** Not using "drop 0 occurrence features", all features will be processed even if they do not occur anywhere in the analysis area.
+===============
+Note: using the following features which require additional memory for smoothing kernels: distribution smoothing 
+Approximately 4.693 MBs of additional memory are required. Trying to allocate...
+Doing connectivity smoothings: initializing
+Using 16 thread(s) for preprocessing.
+Memory allocated successfully!
+===============
+
+======------ Allocating memory for input layers... ------======
+Using compact structure (lookup version),  sizeof(Occur_Container): 18, sizeof(allocated occurrence): 6
+Counting effective occurrencies
+Time: 1508547154 = 2:52:34 AM (2017/10/21) 
+Feature file #1: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp1.tif; non-missing cells: 40596
+Feature file #2: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp2.tif; non-missing cells: 40596
+Feature file #3: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp3.tif; non-missing cells: 40596
+Feature file #4: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp4.tif; non-missing cells: 40596
+Feature file #5: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp5.tif; non-missing cells: 40596
+Feature file #6: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp6.tif; non-missing cells: 40596
+Feature file #7: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp7.tif; non-missing cells: 40596
+Feature file #8: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp8.tif; non-missing cells: 40596
+Feature file #9: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp9.tif; non-missing cells: 40596
+Feature file #10: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp10.tif; non-missing cells: 40596
+Feature file #11: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp11.tif; non-missing cells: 40596
+Feature file #12: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp12.tif; non-missing cells: 40596
+Feature file #13: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp13.tif; non-missing cells: 40596
+Feature file #14: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp14.tif; non-missing cells: 40596
+Feature file #15: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp15.tif; non-missing cells: 40596
+Feature file #16: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp16.tif; non-missing cells: 40596
+Feature file #17: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp17.tif; non-missing cells: 40596
+Feature file #18: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp18.tif; non-missing cells: 40596
+Feature file #19: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp19.tif; non-missing cells: 40596
+Feature file #20: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp20.tif; non-missing cells: 40596
+Feature file #21: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp21.tif; non-missing cells: 40596
+Feature file #22: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp22.tif; non-missing cells: 40596
+Feature file #23: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp23.tif; non-missing cells: 40596
+Feature file #24: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp24.tif; non-missing cells: 40596
+Feature file #25: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp25.tif; non-missing cells: 40596
+Feature file #26: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp26.tif; non-missing cells: 40596
+Feature file #27: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp27.tif; non-missing cells: 40596
+Feature file #28: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp28.tif; non-missing cells: 40596
+Feature file #29: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp29.tif; non-missing cells: 40596
+Feature file #30: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp30.tif; non-missing cells: 40596
+Feature file #31: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp31.tif; non-missing cells: 40596
+Feature file #32: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp32.tif; non-missing cells: 40596
+Feature file #33: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp33.tif; non-missing cells: 40596
+Feature file #34: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp34.tif; non-missing cells: 40596
+Feature file #35: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp35.tif; non-missing cells: 40596
+Feature file #36: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp36.tif; non-missing cells: 40596
+Feature file #37: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp37.tif; non-missing cells: 40596
+Feature file #38: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp38.tif; non-missing cells: 40596
+Feature file #39: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp39.tif; non-missing cells: 40596
+Feature file #40: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp40.tif; non-missing cells: 40596
+Feature file #41: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp41.tif; non-missing cells: 40596
+Feature file #42: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp42.tif; non-missing cells: 40596
+Feature file #43: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp43.tif; non-missing cells: 40596
+Feature file #44: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp44.tif; non-missing cells: 40596
+Feature file #45: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp45.tif; non-missing cells: 40596
+Feature file #46: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp46.tif; non-missing cells: 40596
+Feature file #47: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp47.tif; non-missing cells: 40596
+Feature file #48: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp48.tif; non-missing cells: 40596
+Feature file #49: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp49.tif; non-missing cells: 40596
+Feature file #50: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp50.tif; non-missing cells: 40596
+Feature file #51: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp51.tif; non-missing cells: 40596
+Feature file #52: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp52.tif; non-missing cells: 40596
+Feature file #53: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp53.tif; non-missing cells: 40596
+Feature file #54: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp54.tif; non-missing cells: 40596
+Feature file #55: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp55.tif; non-missing cells: 40596
+Feature file #56: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp56.tif; non-missing cells: 40596
+Feature file #57: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp57.tif; non-missing cells: 40596
+Feature file #58: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp58.tif; non-missing cells: 40596
+Feature file #59: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp59.tif; non-missing cells: 40596
+Feature file #60: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp60.tif; non-missing cells: 40596
+Feature file #61: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp61.tif; non-missing cells: 40596
+Feature file #62: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp62.tif; non-missing cells: 40596
+Feature file #63: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp63.tif; non-missing cells: 40596
+Feature file #64: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp64.tif; non-missing cells: 40596
+Feature file #65: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp65.tif; non-missing cells: 40596
+Feature file #66: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp66.tif; non-missing cells: 40596
+Feature file #67: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp67.tif; non-missing cells: 40596
+Feature file #68: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp68.tif; non-missing cells: 40596
+Feature file #69: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp69.tif; non-missing cells: 40596
+Feature file #70: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp70.tif; non-missing cells: 40596
+Feature file #71: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp71.tif; non-missing cells: 40596
+Feature file #72: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp72.tif; non-missing cells: 40596
+Feature file #73: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp73.tif; non-missing cells: 40596
+Feature file #74: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp74.tif; non-missing cells: 40596
+Feature file #75: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp75.tif; non-missing cells: 40596
+Feature file #76: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp76.tif; non-missing cells: 40596
+Feature file #77: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp77.tif; non-missing cells: 40596
+Feature file #78: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp78.tif; non-missing cells: 40596
+Feature file #79: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp79.tif; non-missing cells: 40596
+Feature file #80: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp80.tif; non-missing cells: 40596
+Feature file #81: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp81.tif; non-missing cells: 40596
+Feature file #82: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp82.tif; non-missing cells: 40596
+Feature file #83: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp83.tif; non-missing cells: 40596
+Feature file #84: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp84.tif; non-missing cells: 40596
+Feature file #85: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp85.tif; non-missing cells: 40596
+Feature file #86: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp86.tif; non-missing cells: 40596
+Feature file #87: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp87.tif; non-missing cells: 40596
+Feature file #88: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp88.tif; non-missing cells: 40596
+Feature file #89: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp89.tif; non-missing cells: 40596
+Feature file #90: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp90.tif; non-missing cells: 40596
+Feature file #91: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp91.tif; non-missing cells: 40596
+Feature file #92: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp92.tif; non-missing cells: 40596
+Feature file #93: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp93.tif; non-missing cells: 40596
+Feature file #94: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp94.tif; non-missing cells: 40596
+Feature file #95: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp95.tif; non-missing cells: 40596
+Feature file #96: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp96.tif; non-missing cells: 40596
+Feature file #97: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp97.tif; non-missing cells: 40596
+Feature file #98: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp98.tif; non-missing cells: 40596
+Feature file #99: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp99.tif; non-missing cells: 40596
+Feature file #100: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp100.tif; non-missing cells: 40596
+Feature file #101: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp101.tif; non-missing cells: 40596
+Feature file #102: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp102.tif; non-missing cells: 40596
+Feature file #103: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp103.tif; non-missing cells: 40596
+Feature file #104: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp104.tif; non-missing cells: 40596
+Feature file #105: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp105.tif; non-missing cells: 40596
+Feature file #106: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp106.tif; non-missing cells: 40596
+Feature file #107: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp107.tif; non-missing cells: 40596
+Feature file #108: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp108.tif; non-missing cells: 40596
+Feature file #109: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp109.tif; non-missing cells: 40596
+Feature file #110: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp110.tif; non-missing cells: 40596
+Feature file #111: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp111.tif; non-missing cells: 40596
+Feature file #112: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp112.tif; non-missing cells: 40596
+Feature file #113: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp113.tif; non-missing cells: 40596
+Feature file #114: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp114.tif; non-missing cells: 40596
+Feature file #115: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp115.tif; non-missing cells: 40596
+Feature file #116: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp116.tif; non-missing cells: 40596
+Feature file #117: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp117.tif; non-missing cells: 40596
+Feature file #118: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp118.tif; non-missing cells: 40596
+Feature file #119: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp119.tif; non-missing cells: 40596
+Feature file #120: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp120.tif; non-missing cells: 40596
+Feature file #121: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp121.tif; non-missing cells: 40596
+Feature file #122: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp122.tif; non-missing cells: 40596
+Feature file #123: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp123.tif; non-missing cells: 40596
+Feature file #124: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp124.tif; non-missing cells: 40596
+Feature file #125: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp125.tif; non-missing cells: 40596
+Feature file #126: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp126.tif; non-missing cells: 40596
+Feature file #127: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp127.tif; non-missing cells: 40596
+Feature file #128: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp128.tif; non-missing cells: 40596
+Feature file #129: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp129.tif; non-missing cells: 40596
+Feature file #130: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp130.tif; non-missing cells: 40596
+Feature file #131: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp131.tif; non-missing cells: 40596
+Feature file #132: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp132.tif; non-missing cells: 40596
+Feature file #133: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp133.tif; non-missing cells: 40596
+Feature file #134: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp134.tif; non-missing cells: 40596
+Feature file #135: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp135.tif; non-missing cells: 40596
+Feature file #136: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp136.tif; non-missing cells: 40596
+Feature file #137: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp137.tif; non-missing cells: 40596
+Feature file #138: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp138.tif; non-missing cells: 40596
+Feature file #139: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp139.tif; non-missing cells: 40596
+Feature file #140: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp140.tif; non-missing cells: 40596
+Feature file #141: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp141.tif; non-missing cells: 40596
+Feature file #142: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp142.tif; non-missing cells: 40596
+Feature file #143: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp143.tif; non-missing cells: 40596
+Feature file #144: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp144.tif; non-missing cells: 40596
+Feature file #145: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp145.tif; non-missing cells: 40596
+Feature file #146: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp146.tif; non-missing cells: 40596
+Feature file #147: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp147.tif; non-missing cells: 40596
+Feature file #148: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp148.tif; non-missing cells: 40596
+Feature file #149: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp149.tif; non-missing cells: 40596
+Feature file #150: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp150.tif; non-missing cells: 40596
+Feature file #151: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp151.tif; non-missing cells: 40596
+Feature file #152: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp152.tif; non-missing cells: 40596
+Feature file #153: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp153.tif; non-missing cells: 40596
+Feature file #154: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp154.tif; non-missing cells: 40596
+Feature file #155: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp155.tif; non-missing cells: 40596
+Feature file #156: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp156.tif; non-missing cells: 40596
+Feature file #157: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp157.tif; non-missing cells: 40596
+Feature file #158: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp158.tif; non-missing cells: 40596
+Feature file #159: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp159.tif; non-missing cells: 40596
+Feature file #160: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp160.tif; non-missing cells: 40596
+Feature file #161: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp161.tif; non-missing cells: 40596
+Feature file #162: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp162.tif; non-missing cells: 40596
+Feature file #163: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp163.tif; non-missing cells: 40596
+Feature file #164: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp164.tif; non-missing cells: 40596
+Feature file #165: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp165.tif; non-missing cells: 40596
+Feature file #166: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp166.tif; non-missing cells: 40596
+Feature file #167: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp167.tif; non-missing cells: 40596
+Feature file #168: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp168.tif; non-missing cells: 40596
+Feature file #169: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp169.tif; non-missing cells: 40596
+Feature file #170: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp170.tif; non-missing cells: 40596
+Feature file #171: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp171.tif; non-missing cells: 40596
+Feature file #172: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp172.tif; non-missing cells: 40596
+Feature file #173: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp173.tif; non-missing cells: 40596
+Feature file #174: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp174.tif; non-missing cells: 40596
+Feature file #175: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp175.tif; non-missing cells: 40596
+Feature file #176: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp176.tif; non-missing cells: 40596
+Feature file #177: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp177.tif; non-missing cells: 40596
+Feature file #178: Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp178.tif; non-missing cells: 40596
+Total # of feature layers: 178
+Total # of cells in every layer: 61404
+Effective # of cells (cells with any occurrence, globally): 40596
+Total # of occurrencies: 7226088, counted across 178 layers; average across layers: 40596
+Percentage of globally effective occurrencies = 100 % (relative to total effective cells) = 66.113 % (relative to total cells)
+Memory required for biodiversity features: 42.51 MB, of which base memory: 1.165 MB, and occurrencies require: 41.35 MB
+Time now: 1508547155 = 2:52:35 AM (2017/10/21) 
+Finished preload/counting effective occurrencies. Elapsed: 1 seconds.
+======------ Allocating memory for input layers: finished successfully ------======
+
+******=====----- Loading feature (e.g., species) data layers -----=====**********
+* Loaded biodiversity feature file #1, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp1.tif, non-missing cells:40596, their sum: 1481.98
+* Loaded biodiversity feature file #2, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp2.tif, non-missing cells:40596, their sum: 1568.64
+* Loaded biodiversity feature file #3, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp3.tif, non-missing cells:40596, their sum: 1129.63
+* Loaded biodiversity feature file #4, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp4.tif, non-missing cells:40596, their sum: 283.548
+* Loaded biodiversity feature file #5, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp5.tif, non-missing cells:40596, their sum: 1683.14
+* Loaded biodiversity feature file #6, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp6.tif, non-missing cells:40596, their sum: 667.583
+* Loaded biodiversity feature file #7, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp7.tif, non-missing cells:40596, their sum: 2346.91
+* Loaded biodiversity feature file #8, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp8.tif, non-missing cells:40596, their sum: 1065.77
+* Loaded biodiversity feature file #9, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp9.tif, non-missing cells:40596, their sum: 1252.13
+* Loaded biodiversity feature file #10, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp10.tif, non-missing cells:40596, their sum: 2204.31
+* Loaded biodiversity feature file #11, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp11.tif, non-missing cells:40596, their sum: 251.765
+* Loaded biodiversity feature file #12, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp12.tif, non-missing cells:40596, their sum: 635.242
+* Loaded biodiversity feature file #13, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp13.tif, non-missing cells:40596, their sum: 1223.08
+* Loaded biodiversity feature file #14, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp14.tif, non-missing cells:40596, their sum: 844.287
+* Loaded biodiversity feature file #15, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp15.tif, non-missing cells:40596, their sum: 10696.9
+* Loaded biodiversity feature file #16, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp16.tif, non-missing cells:40596, their sum: 265.335
+* Loaded biodiversity feature file #17, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp17.tif, non-missing cells:40596, their sum: 7535.9
+* Loaded biodiversity feature file #18, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp18.tif, non-missing cells:40596, their sum: 1584.96
+* Loaded biodiversity feature file #19, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp19.tif, non-missing cells:40596, their sum: 270.309
+* Loaded biodiversity feature file #20, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp20.tif, non-missing cells:40596, their sum: 588.708
+* Loaded biodiversity feature file #21, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp21.tif, non-missing cells:40596, their sum: 99.9214
+* Loaded biodiversity feature file #22, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp22.tif, non-missing cells:40596, their sum: 410.562
+* Loaded biodiversity feature file #23, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp23.tif, non-missing cells:40596, their sum: 241.097
+* Loaded biodiversity feature file #24, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp24.tif, non-missing cells:40596, their sum: 28329.6
+* Loaded biodiversity feature file #25, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp25.tif, non-missing cells:40596, their sum: 847.791
+* Loaded biodiversity feature file #26, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp26.tif, non-missing cells:40596, their sum: 385.192
+* Loaded biodiversity feature file #27, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp27.tif, non-missing cells:40596, their sum: 1960.27
+* Loaded biodiversity feature file #28, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp28.tif, non-missing cells:40596, their sum: 304.433
+* Loaded biodiversity feature file #29, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp29.tif, non-missing cells:40596, their sum: 156.369
+* Loaded biodiversity feature file #30, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp30.tif, non-missing cells:40596, their sum: 922.828
+* Loaded biodiversity feature file #31, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp31.tif, non-missing cells:40596, their sum: 606.865
+* Loaded biodiversity feature file #32, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp32.tif, non-missing cells:40596, their sum: 3606.99
+* Loaded biodiversity feature file #33, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp33.tif, non-missing cells:40596, their sum: 4190.85
+* Loaded biodiversity feature file #34, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp34.tif, non-missing cells:40596, their sum: 416.349
+* Loaded biodiversity feature file #35, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp35.tif, non-missing cells:40596, their sum: 445.591
+* Loaded biodiversity feature file #36, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp36.tif, non-missing cells:40596, their sum: 530.542
+* Loaded biodiversity feature file #37, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp37.tif, non-missing cells:40596, their sum: 1441.12
+* Loaded biodiversity feature file #38, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp38.tif, non-missing cells:40596, their sum: 602.166
+* Loaded biodiversity feature file #39, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp39.tif, non-missing cells:40596, their sum: 8156.77
+* Loaded biodiversity feature file #40, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp40.tif, non-missing cells:40596, their sum: 980.669
+* Loaded biodiversity feature file #41, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp41.tif, non-missing cells:40596, their sum: 189.68
+* Loaded biodiversity feature file #42, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp42.tif, non-missing cells:40596, their sum: 2756.64
+* Loaded biodiversity feature file #43, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp43.tif, non-missing cells:40596, their sum: 1145.46
+* Loaded biodiversity feature file #44, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp44.tif, non-missing cells:40596, their sum: 2666.58
+* Loaded biodiversity feature file #45, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp45.tif, non-missing cells:40596, their sum: 1130.93
+* Loaded biodiversity feature file #46, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp46.tif, non-missing cells:40596, their sum: 430.296
+* Loaded biodiversity feature file #47, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp47.tif, non-missing cells:40596, their sum: 643.205
+* Loaded biodiversity feature file #48, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp48.tif, non-missing cells:40596, their sum: 10560.5
+* Loaded biodiversity feature file #49, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp49.tif, non-missing cells:40596, their sum: 841.15
+* Loaded biodiversity feature file #50, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp50.tif, non-missing cells:40596, their sum: 4075.68
+* Loaded biodiversity feature file #51, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp51.tif, non-missing cells:40596, their sum: 2809.19
+* Loaded biodiversity feature file #52, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp52.tif, non-missing cells:40596, their sum: 1212.9
+* Loaded biodiversity feature file #53, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp53.tif, non-missing cells:40596, their sum: 591.843
+* Loaded biodiversity feature file #54, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp54.tif, non-missing cells:40596, their sum: 433.981
+* Loaded biodiversity feature file #55, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp55.tif, non-missing cells:40596, their sum: 1510.74
+* Loaded biodiversity feature file #56, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp56.tif, non-missing cells:40596, their sum: 923.271
+* Loaded biodiversity feature file #57, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp57.tif, non-missing cells:40596, their sum: 990.924
+* Loaded biodiversity feature file #58, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp58.tif, non-missing cells:40596, their sum: 2460.96
+* Loaded biodiversity feature file #59, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp59.tif, non-missing cells:40596, their sum: 1279.98
+* Loaded biodiversity feature file #60, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp60.tif, non-missing cells:40596, their sum: 1264.4
+* Loaded biodiversity feature file #61, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp61.tif, non-missing cells:40596, their sum: 1243.74
+* Loaded biodiversity feature file #62, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp62.tif, non-missing cells:40596, their sum: 619.951
+* Loaded biodiversity feature file #63, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp63.tif, non-missing cells:40596, their sum: 1755.29
+* Loaded biodiversity feature file #64, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp64.tif, non-missing cells:40596, their sum: 841.888
+* Loaded biodiversity feature file #65, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp65.tif, non-missing cells:40596, their sum: 661.003
+* Loaded biodiversity feature file #66, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp66.tif, non-missing cells:40596, their sum: 115.819
+* Loaded biodiversity feature file #67, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp67.tif, non-missing cells:40596, their sum: 649.269
+* Loaded biodiversity feature file #68, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp68.tif, non-missing cells:40596, their sum: 1150.42
+* Loaded biodiversity feature file #69, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp69.tif, non-missing cells:40596, their sum: 3575.89
+* Loaded biodiversity feature file #70, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp70.tif, non-missing cells:40596, their sum: 999.18
+* Loaded biodiversity feature file #71, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp71.tif, non-missing cells:40596, their sum: 1128.97
+* Loaded biodiversity feature file #72, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp72.tif, non-missing cells:40596, their sum: 316.664
+* Loaded biodiversity feature file #73, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp73.tif, non-missing cells:40596, their sum: 1736.85
+* Loaded biodiversity feature file #74, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp74.tif, non-missing cells:40596, their sum: 1722.75
+* Loaded biodiversity feature file #75, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp75.tif, non-missing cells:40596, their sum: 1097.76
+* Loaded biodiversity feature file #76, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp76.tif, non-missing cells:40596, their sum: 867.091
+* Loaded biodiversity feature file #77, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp77.tif, non-missing cells:40596, their sum: 611.086
+* Loaded biodiversity feature file #78, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp78.tif, non-missing cells:40596, their sum: 5348.6
+* Loaded biodiversity feature file #79, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp79.tif, non-missing cells:40596, their sum: 0
+* Loaded biodiversity feature file #80, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp80.tif, non-missing cells:40596, their sum: 105.756
+* Loaded biodiversity feature file #81, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp81.tif, non-missing cells:40596, their sum: 13246.2
+* Loaded biodiversity feature file #82, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp82.tif, non-missing cells:40596, their sum: 1112.44
+* Loaded biodiversity feature file #83, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp83.tif, non-missing cells:40596, their sum: 2854.85
+* Loaded biodiversity feature file #84, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp84.tif, non-missing cells:40596, their sum: 642.283
+* Loaded biodiversity feature file #85, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp85.tif, non-missing cells:40596, their sum: 432.148
+* Loaded biodiversity feature file #86, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp86.tif, non-missing cells:40596, their sum: 3461.17
+* Loaded biodiversity feature file #87, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp87.tif, non-missing cells:40596, their sum: 1886.59
+* Loaded biodiversity feature file #88, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp88.tif, non-missing cells:40596, their sum: 10253.6
+* Loaded biodiversity feature file #89, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp89.tif, non-missing cells:40596, their sum: 2092.14
+* Loaded biodiversity feature file #90, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp90.tif, non-missing cells:40596, their sum: 1126.45
+* Loaded biodiversity feature file #91, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp91.tif, non-missing cells:40596, their sum: 85.43
+* Loaded biodiversity feature file #92, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp92.tif, non-missing cells:40596, their sum: 1018.3
+* Loaded biodiversity feature file #93, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp93.tif, non-missing cells:40596, their sum: 1585.26
+* Loaded biodiversity feature file #94, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp94.tif, non-missing cells:40596, their sum: 1362.34
+* Loaded biodiversity feature file #95, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp95.tif, non-missing cells:40596, their sum: 1026.96
+* Loaded biodiversity feature file #96, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp96.tif, non-missing cells:40596, their sum: 589.641
+* Loaded biodiversity feature file #97, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp97.tif, non-missing cells:40596, their sum: 483.616
+* Loaded biodiversity feature file #98, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp98.tif, non-missing cells:40596, their sum: 1238.41
+* Loaded biodiversity feature file #99, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp99.tif, non-missing cells:40596, their sum: 1683.83
+* Loaded biodiversity feature file #100, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp100.tif, non-missing cells:40596, their sum: 154.837
+* Loaded biodiversity feature file #101, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp101.tif, non-missing cells:40596, their sum: 992.728
+* Loaded biodiversity feature file #102, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp102.tif, non-missing cells:40596, their sum: 337.436
+* Loaded biodiversity feature file #103, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp103.tif, non-missing cells:40596, their sum: 93.4816
+* Loaded biodiversity feature file #104, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp104.tif, non-missing cells:40596, their sum: 16927.5
+* Loaded biodiversity feature file #105, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp105.tif, non-missing cells:40596, their sum: 7558.13
+* Loaded biodiversity feature file #106, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp106.tif, non-missing cells:40596, their sum: 439.001
+* Loaded biodiversity feature file #107, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp107.tif, non-missing cells:40596, their sum: 5083.31
+* Loaded biodiversity feature file #108, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp108.tif, non-missing cells:40596, their sum: 1370.83
+* Loaded biodiversity feature file #109, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp109.tif, non-missing cells:40596, their sum: 837.133
+* Loaded biodiversity feature file #110, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp110.tif, non-missing cells:40596, their sum: 850.661
+* Loaded biodiversity feature file #111, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp111.tif, non-missing cells:40596, their sum: 1132.79
+* Loaded biodiversity feature file #112, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp112.tif, non-missing cells:40596, their sum: 1408.3
+* Loaded biodiversity feature file #113, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp113.tif, non-missing cells:40596, their sum: 15016.1
+* Loaded biodiversity feature file #114, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp114.tif, non-missing cells:40596, their sum: 283.462
+* Loaded biodiversity feature file #115, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp115.tif, non-missing cells:40596, their sum: 1428.65
+* Loaded biodiversity feature file #116, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp116.tif, non-missing cells:40596, their sum: 4255.07
+* Loaded biodiversity feature file #117, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp117.tif, non-missing cells:40596, their sum: 3521.74
+* Loaded biodiversity feature file #118, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp118.tif, non-missing cells:40596, their sum: 3727.87
+* Loaded biodiversity feature file #119, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp119.tif, non-missing cells:40596, their sum: 1081.99
+* Loaded biodiversity feature file #120, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp120.tif, non-missing cells:40596, their sum: 2340.14
+* Loaded biodiversity feature file #121, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp121.tif, non-missing cells:40596, their sum: 19864.4
+* Loaded biodiversity feature file #122, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp122.tif, non-missing cells:40596, their sum: 1736.5
+* Loaded biodiversity feature file #123, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp123.tif, non-missing cells:40596, their sum: 507.222
+* Loaded biodiversity feature file #124, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp124.tif, non-missing cells:40596, their sum: 2150.16
+* Loaded biodiversity feature file #125, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp125.tif, non-missing cells:40596, their sum: 1268.53
+* Loaded biodiversity feature file #126, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp126.tif, non-missing cells:40596, their sum: 20675.9
+* Loaded biodiversity feature file #127, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp127.tif, non-missing cells:40596, their sum: 1283.92
+* Loaded biodiversity feature file #128, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp128.tif, non-missing cells:40596, their sum: 260.887
+* Loaded biodiversity feature file #129, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp129.tif, non-missing cells:40596, their sum: 1348.91
+* Loaded biodiversity feature file #130, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp130.tif, non-missing cells:40596, their sum: 1269.82
+* Loaded biodiversity feature file #131, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp131.tif, non-missing cells:40596, their sum: 521.159
+* Loaded biodiversity feature file #132, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp132.tif, non-missing cells:40596, their sum: 621.022
+* Loaded biodiversity feature file #133, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp133.tif, non-missing cells:40596, their sum: 477.866
+* Loaded biodiversity feature file #134, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp134.tif, non-missing cells:40596, their sum: 235.171
+* Loaded biodiversity feature file #135, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp135.tif, non-missing cells:40596, their sum: 423.349
+* Loaded biodiversity feature file #136, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp136.tif, non-missing cells:40596, their sum: 1621.73
+* Loaded biodiversity feature file #137, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp137.tif, non-missing cells:40596, their sum: 1305.83
+* Loaded biodiversity feature file #138, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp138.tif, non-missing cells:40596, their sum: 856.307
+* Loaded biodiversity feature file #139, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp139.tif, non-missing cells:40596, their sum: 3196.12
+* Loaded biodiversity feature file #140, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp140.tif, non-missing cells:40596, their sum: 578.772
+* Loaded biodiversity feature file #141, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp141.tif, non-missing cells:40596, their sum: 430.107
+* Loaded biodiversity feature file #142, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp142.tif, non-missing cells:40596, their sum: 738.241
+* Loaded biodiversity feature file #143, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp143.tif, non-missing cells:40596, their sum: 691.647
+* Loaded biodiversity feature file #144, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp144.tif, non-missing cells:40596, their sum: 1247.51
+* Loaded biodiversity feature file #145, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp145.tif, non-missing cells:40596, their sum: 414.694
+* Loaded biodiversity feature file #146, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp146.tif, non-missing cells:40596, their sum: 473.243
+* Loaded biodiversity feature file #147, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp147.tif, non-missing cells:40596, their sum: 1469.89
+* Loaded biodiversity feature file #148, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp148.tif, non-missing cells:40596, their sum: 562.652
+* Loaded biodiversity feature file #149, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp149.tif, non-missing cells:40596, their sum: 268.613
+* Loaded biodiversity feature file #150, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp150.tif, non-missing cells:40596, their sum: 345.256
+* Loaded biodiversity feature file #151, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp151.tif, non-missing cells:40596, their sum: 1194.31
+* Loaded biodiversity feature file #152, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp152.tif, non-missing cells:40596, their sum: 1418.26
+* Loaded biodiversity feature file #153, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp153.tif, non-missing cells:40596, their sum: 1565.05
+* Loaded biodiversity feature file #154, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp154.tif, non-missing cells:40596, their sum: 1492.44
+* Loaded biodiversity feature file #155, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp155.tif, non-missing cells:40596, their sum: 2159.77
+* Loaded biodiversity feature file #156, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp156.tif, non-missing cells:40596, their sum: 2154.87
+* Loaded biodiversity feature file #157, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp157.tif, non-missing cells:40596, their sum: 711.735
+* Loaded biodiversity feature file #158, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp158.tif, non-missing cells:40596, their sum: 228.168
+* Loaded biodiversity feature file #159, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp159.tif, non-missing cells:40596, their sum: 1541.74
+* Loaded biodiversity feature file #160, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp160.tif, non-missing cells:40596, their sum: 4949.56
+* Loaded biodiversity feature file #161, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp161.tif, non-missing cells:40596, their sum: 878.863
+* Loaded biodiversity feature file #162, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp162.tif, non-missing cells:40596, their sum: 588.29
+* Loaded biodiversity feature file #163, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp163.tif, non-missing cells:40596, their sum: 2533.49
+* Loaded biodiversity feature file #164, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp164.tif, non-missing cells:40596, their sum: 5213.45
+* Loaded biodiversity feature file #165, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp165.tif, non-missing cells:40596, their sum: 1843.24
+* Loaded biodiversity feature file #166, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp166.tif, non-missing cells:40596, their sum: 931.374
+* Loaded biodiversity feature file #167, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp167.tif, non-missing cells:40596, their sum: 457.552
+* Loaded biodiversity feature file #168, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp168.tif, non-missing cells:40596, their sum: 1794.68
+* Loaded biodiversity feature file #169, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp169.tif, non-missing cells:40596, their sum: 641.966
+* Loaded biodiversity feature file #170, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp170.tif, non-missing cells:40596, their sum: 444.323
+* Loaded biodiversity feature file #171, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp171.tif, non-missing cells:40596, their sum: 1288.84
+* Loaded biodiversity feature file #172, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp172.tif, non-missing cells:40596, their sum: 3220.75
+* Loaded biodiversity feature file #173, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp173.tif, non-missing cells:40596, their sum: 392.927
+* Loaded biodiversity feature file #174, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp174.tif, non-missing cells:40596, their sum: 777.546
+* Loaded biodiversity feature file #175, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp175.tif, non-missing cells:40596, their sum: 26853.5
+* Loaded biodiversity feature file #176, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp176.tif, non-missing cells:40596, their sum: 360.228
+* Loaded biodiversity feature file #177, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp177.tif, non-missing cells:40596, their sum: 3012.7
+* Loaded biodiversity feature file #178, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp178.tif, non-missing cells:40596, their sum: 1871.49
+Calculating centers of the distributions of 178 features...
+
+******=====----- Distribution smoothing is on. Transforming input layers... -----=====******
+* Applying distribution smoothing on feature #1, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp1.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #2, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp2.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #3, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp3.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #4, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp4.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #5, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp5.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #6, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp6.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #7, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp7.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #8, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp8.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #9, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp9.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #10, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp10.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #11, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp11.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #12, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp12.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #13, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp13.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #14, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp14.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #15, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp15.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #16, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp16.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #17, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp17.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #18, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp18.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #19, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp19.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #20, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp20.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #21, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp21.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #22, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp22.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #23, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp23.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #24, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp24.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #25, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp25.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #26, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp26.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #27, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp27.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #28, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp28.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #29, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp29.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #30, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp30.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #31, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp31.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #32, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp32.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #33, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp33.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #34, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp34.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #35, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp35.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #36, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp36.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #37, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp37.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #38, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp38.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #39, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp39.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #40, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp40.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #41, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp41.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #42, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp42.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #43, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp43.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #44, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp44.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #45, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp45.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #46, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp46.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #47, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp47.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #48, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp48.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #49, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp49.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #50, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp50.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #51, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp51.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #52, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp52.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #53, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp53.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #54, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp54.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #55, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp55.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #56, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp56.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #57, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp57.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #58, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp58.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #59, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp59.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #60, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp60.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #61, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp61.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #62, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp62.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #63, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp63.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #64, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp64.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #65, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp65.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #66, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp66.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #67, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp67.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #68, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp68.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #69, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp69.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #70, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp70.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #71, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp71.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #72, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp72.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #73, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp73.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #74, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp74.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #75, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp75.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #76, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp76.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #77, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp77.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #78, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp78.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #79, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp79.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #80, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp80.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #81, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp81.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #82, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp82.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #83, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp83.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #84, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp84.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #85, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp85.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #86, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp86.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #87, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp87.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #88, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp88.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #89, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp89.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #90, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp90.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #91, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp91.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #92, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp92.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #93, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp93.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #94, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp94.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #95, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp95.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #96, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp96.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #97, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp97.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #98, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp98.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #99, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp99.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #100, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp100.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #101, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp101.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #102, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp102.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #103, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp103.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #104, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp104.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #105, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp105.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #106, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp106.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #107, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp107.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #108, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp108.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #109, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp109.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #110, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp110.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #111, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp111.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #112, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp112.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #113, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp113.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #114, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp114.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #115, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp115.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #116, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp116.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #117, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp117.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #118, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp118.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #119, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp119.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #120, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp120.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #121, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp121.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #122, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp122.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #123, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp123.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #124, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp124.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #125, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp125.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #126, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp126.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #127, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp127.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #128, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp128.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #129, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp129.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #130, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp130.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #131, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp131.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #132, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp132.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #133, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp133.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #134, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp134.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #135, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp135.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #136, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp136.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #137, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp137.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #138, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp138.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #139, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp139.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #140, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp140.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #141, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp141.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #142, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp142.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #143, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp143.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #144, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp144.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #145, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp145.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #146, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp146.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #147, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp147.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #148, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp148.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #149, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp149.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #150, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp150.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #151, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp151.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #152, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp152.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #153, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp153.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #154, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp154.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #155, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp155.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #156, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp156.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #157, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp157.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #158, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp158.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #159, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp159.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #160, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp160.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #161, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp161.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #162, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp162.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #163, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp163.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #164, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp164.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #165, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp165.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #166, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp166.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #167, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp167.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #168, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp168.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #169, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp169.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #170, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp170.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #171, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp171.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #172, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp172.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #173, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp173.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #174, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp174.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #175, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp175.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #176, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp176.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #177, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp177.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+* Applying distribution smoothing on feature #178, Maps_Zonation_Input/Mxnt_Bias0/Mxnt_Bias0_Sp178.tif
+DS connectivity calculations - Kernel calculated; alpha= 1
+Freeing structures required for distribution smoothing... 
+ ...Done.
+******=====----- Finished distribution smoothing transformations in 4 seconds. -----=====******
+
+
+******=====----- Finished loading and transformation of feature data layers -----=====*********
+
+Calculating richness across biodiversity features...
+Done in 0 seconds. Time now: 2:52:40 AM (2017/10/21) 
+Saving raster map of weighted range size corrected richness
+Saving raster: output/ABF_Cost_Mask__WTGlob-NoUncert__BQP-Low-1__Mxnt-Bias0-AllSP.wrscr.compressed.tif (GTiff format)
+
+******=====----- Preparing to start the ranking process... -----=====**********
+NOT using removal only from edges.
+Fixing BQP neighborhoods
+Initial average count of neighbors = 5.28904
+   with radius of 1
+Done.
+
+
+Analyzing cost layer...
+Total cost in cost layer: 2180.38, cost inside study/analysis area = 2180.38, cost outside = 0
+
+
+Loaded data and initialized in 6 seconds. Current time: 2:52:40 AM (2017/10/21) 
+Cells with data = 40596; locations with missing values = 20808
+
+---------------------======********** RANKING STARTS HERE ***********======-----------------------
+Initially removed cells count = 0
+Note: No initial removal was used.
+
+Biodiversity features performance levels check. Proportions remaining:
+---------
+Feature 1: 1.000024
+Feature 2: 1.000003
+Feature 3: 1.000017
+Feature 4: 1.000132
+Feature 5: 1.000006
+Feature 6: 1.000001
+Feature 7: 0.9999999
+Feature 8: 1.000026
+Feature 9: 0.9999993
+Feature 10: 1.000008
+Feature 11: 1.000001
+Feature 12: 1.000024
+Feature 13: 0.9999967
+Feature 14: 0.9999998
+Feature 15: 1.000001
+Feature 16: 1.000015
+Feature 17: 0.9999996
+Feature 18: 0.999994
+Feature 19: 1.000058
+Feature 20: 1.000063
+Feature 21: 0.9999642
+Feature 22: 1.000002
+Feature 23: 1.000033
+Feature 24: 0.999994
+Feature 25: 1.000001
+Feature 26: 0.9999568
+Feature 27: 1.000003
+Feature 28: 0.9999562
+Feature 29: 1.000035
+Feature 30: 1.000002
+Feature 31: 1.000001
+Feature 32: 1.000001
+Feature 33: 0.9999991
+Feature 34: 1.000001
+Feature 35:    1
+Feature 36: 1.000049
+Feature 37: 1.000008
+Feature 38: 1.000027
+Feature 39: 0.9999752
+Feature 40: 0.9999942
+Feature 41: 1.00002
+Feature 42:    1
+Feature 43: 1.000007
+Feature 44: 0.9999987
+Feature 45: 1.000001
+Feature 46: 1.000042
+Feature 47: 1.000003
+Feature 48: 1.000008
+Feature 49: 0.9999948
+Feature 50: 1.000001
+Feature 51: 1.000001
+Feature 52: 1.000003
+Feature 53:    1
+Feature 54: 1.000027
+Feature 55: 1.000002
+Feature 56: 0.999999
+Feature 57: 0.9999958
+Feature 58: 0.9999995
+Feature 59: 0.9999948
+Feature 60: 0.9999904
+Feature 61: 1.000009
+Feature 62: 1.000004
+Feature 63: 1.000018
+Feature 64: 1.000022
+Feature 65: 1.00001
+Feature 66: 0.9999965
+Feature 67: 1.000004
+Feature 68: 0.9999993
+Feature 69: 1.000012
+Feature 70: 1.000014
+Feature 71: 0.9999991
+Feature 72: 1.000293
+Feature 73: 1.000004
+Feature 74: 1.000008
+Feature 75: 1.000003
+Feature 76: 0.9999872
+Feature 77: 0.9999216
+Feature 78: 0.9999991
+Feature 79:    0
+Feature 80: 0.9999987
+Feature 81: 0.9999873
+Feature 82: 0.9999996
+Feature 83:    1
+Feature 84: 1.000004
+Feature 85: 1.000008
+Feature 86: 1.000005
+Feature 87:    1
+Feature 88: 0.9997255
+Feature 89: 1.000012
+Feature 90: 1.000002
+Feature 91: 1.000013
+Feature 92:    1
+Feature 93: 1.000002
+Feature 94: 0.9999988
+Feature 95: 0.9999544
+Feature 96: 1.000001
+Feature 97: 0.9999828
+Feature 98: 0.9999967
+Feature 99: 1.000007
+Feature 100: 0.9999774
+Feature 101: 1.000004
+Feature 102: 0.9999999
+Feature 103: 0.9999985
+Feature 104: 0.9999901
+Feature 105: 1.000207
+Feature 106: 0.9999956
+Feature 107: 0.9999967
+Feature 108: 1.000064
+Feature 109: 0.9999922
+Feature 110: 0.9999935
+Feature 111: 1.000006
+Feature 112: 1.000029
+Feature 113: 0.9999994
+Feature 114: 0.999999
+Feature 115: 0.9999992
+Feature 116: 1.000001
+Feature 117: 1.000002
+Feature 118: 0.9999997
+Feature 119: 0.9999998
+Feature 120: 0.9999599
+Feature 121: 0.9999989
+Feature 122: 0.9999992
+Feature 123: 0.9999985
+Feature 124: 0.9999984
+Feature 125: 1.000008
+Feature 126: 1.000005
+Feature 127:    1
+Feature 128: 1.000003
+Feature 129: 1.000056
+Feature 130: 0.9999988
+Feature 131: 0.9999955
+Feature 132: 0.9999928
+Feature 133: 0.9999998
+Feature 134: 1.000061
+Feature 135: 1.000007
+Feature 136: 1.000021
+Feature 137: 1.000006
+Feature 138: 0.9999973
+Feature 139: 1.000006
+Feature 140: 1.000319
+Feature 141: 1.000021
+Feature 142: 1.000035
+Feature 143: 1.000099
+Feature 144: 0.999986
+Feature 145: 1.000017
+Feature 146: 0.9999278
+Feature 147: 1.000003
+Feature 148: 0.9999989
+Feature 149: 1.000305
+Feature 150: 0.9999744
+Feature 151:    1
+Feature 152: 1.000015
+Feature 153: 0.9999704
+Feature 154: 0.999969
+Feature 155: 1.000009
+Feature 156: 0.9999964
+Feature 157: 0.9999964
+Feature 158: 1.000048
+Feature 159: 0.999999
+Feature 160: 0.9999975
+Feature 161: 0.9999995
+Feature 162: 1.000075
+Feature 163: 0.9999942
+Feature 164: 1.000003
+Feature 165: 0.999999
+Feature 166: 1.000002
+Feature 167: 0.9999927
+Feature 168: 0.9999656
+Feature 169: 1.000084
+Feature 170: 0.9999977
+Feature 171: 1.000059
+Feature 172: 1.000001
+Feature 173: 0.9999993
+Feature 174: 0.9999991
+Feature 175: 1.000017
+Feature 176: 1.000003
+Feature 177: 0.9999951
+Feature 178: 1.000014
+---------
+Minimum proportion remaining:    0, average: 0.9943919, weighted average: 0.9951063, maximum: 1.000319
+
+Confirmed use of (hierarchical) removal mask. Initial smallest removal level: 0
+
+The following lines provide information on how the ranking is done by iterative removal of cells, with 6 columns per line:
+Cells removed, proportion of landscape remaining, cost of remaining landscape, edge list length, smallest remaining proportion in all biodiversity features (e.g. species), time elapsed (s)
+----------------------------------------------------------------------------------------------------------------------------
+             0            100%        2180.38          40596              0            0
+EXITING: ZIG has detected a NaN delta value, x: 125, y: 188, single cell mode: 0, with fraction of landscape lost: 0EXITING: ZIG has detected a NaN delta value, x: 115, y: 148, single cell mode: 0, with fraction of landscape lost: 0
+
+EXITING: ZIG has detected a NaN delta value, x: 154, y: 213, single cell mode: 0, with fraction of landscape lost: 0EXITING: ZIG has detected a NaN delta value, x: 57, y: 201, single cell mode: 0, with fraction of landscape lost: 0
+EXITING: ZIG has detected a NaN delta value, x: 150, y: 175, single cell mode: 0, with fraction of landscape lost: 0
+
+*** Error in `zig4': double free or corruption (!prev): 0x0000000004c3b750 ***
+EXITING: ZIG has detected a NaN delta value, x: 5, y: 7, single cell mode: 0, with fraction of landscape lost: 0
+*** Error in `zig4': double free or corruption (!prev): 0x0000000004cf0d10 ***
+*** Error in `zig4': double free or corruption (!prev): 0x0000000004d69b90 ***
+*** Error in `zig4': double free or corruption (!prev): 0x0000000004d69b90 ***
+*** Error in `zig4': double free or corruption (!prev): 0x0000000004d69b90 ***
+ABF_Cost_Mask__WTGlob-NoUncert__BQP-Low-1__Mxnt-Bias0-AllSP.sh: line 2: 117078 Segmentation fault      (core dumped) zig4 -r "ABF_Cost_Mask.dat" "WTGlob-NoUncert__BQP-Low-1__Mxnt-Bias0-AllSP.spp" "output/ABF_Cost_Mask__WTGlob-NoUncert__BQP-Low-1__Mxnt-Bias0-AllSP.txt" 0 1 1 1 --use-threads=16
